@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact QDR | Start a Cabin or Interior Enquiry</title>
+    <meta name="description"
+        content="Start a conversation with QDR Cabin & Interior about portable cabins, office cabins or interior fit-out work.">
+    <link rel="icon" href="assets/logo/qdr-logo.png">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+</head>
+
+<body data-page="contact"><a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+        <div class="header-inner"><a class="brand" href="index.html" aria-label="QDR Cabin and Interior home"><img
+                    src="assets/logo/qdr-logo.png" alt="QDR Cabin and Interior"></a><button class="menu-toggle"
+                type="button" aria-expanded="false"
+                aria-controls="primary-nav"><span></span><span></span><span></span><span class="sr-only">Open
+                    navigation</span></button>
+            <nav class="primary-nav" id="primary-nav" aria-label="Main navigation"><a href="index.html">Home</a><a
+                    href="about.html">About</a><a href="services.html">Services</a><a
+                    href="portable-cabins.html">Portable cabins</a><a href="office-cabins.html">Office cabins</a><a
+                    href="interior-work.html">Interior work</a><a href="projects.html">Projects</a><a
+                    class="nav-contact" href="contact.html">Get in touch <span aria-hidden="true">↗</span></a></nav>
+        </div>
+    </header>
+    <main id="main">
+        <section class="page-hero page-hero-contact">
+            <div class="wrap page-hero-inner">
+                <p class="eyebrow light-eyebrow"><span></span> CONTACT QDR</p>
+                <h1>Tell us what<br>you're <em>thinking.</em></h1>
+                <p>A few details help us understand your project. Start with whatever you know so far.</p>
+                <div class="breadcrumb"><a href="index.html">Home</a><span>/</span><span
+                        aria-current="page">Contact</span></div>
+            </div>
+        </section>
+        <section class="wrap section-pad contact-layout">
+            <div class="contact-aside">
+                <p class="eyebrow">LET'S START SOMEWHERE</p>
+                <h2>A good space<br>starts with a <em>chat.</em></h2>
+                <p>Tell us a little about what you have in mind. This form is a local draft helper only; no enquiry is
+                    sent or stored.</p>
+                <div class="contact-detail"><span class="detail-number">01</span>
+                    <div><strong>Phone</strong>
+                        <p><a href="tel:+919833605267">98336 05267</a></p>
+                    </div>
+                </div>
+                <div class="contact-detail"><span class="detail-number">02</span>
+                    <div><strong>Email</strong>
+                        <p><a href="mailto:qdrcabins@gmail.com">qdrcabins@gmail.com</a></p>
+                    </div>
+                </div>
+                <div class="contact-detail"><span class="detail-number">03</span>
+                    <div><strong>Location</strong>
+                        <p>Dahisar Thakurpada, Suraj Nagar, Panvel Road, 400612.</p>
+                    </div>
+                </div>
+                <div class="contact-detail"><span class="detail-number">04</span>
+                    <div><strong>YouTube</strong>
+                        <p><a href="https://www.youtube.com/@QDRcabinandinteriorin" target="_blank"
+                                rel="noopener noreferrer">QDR Cabin and Interior ↗</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-form-wrap">
+                <h2>Project enquiry</h2>
+                <p class="form-intro">Complete the fields to prepare a message you can copy or open in your preferred
+                    WhatsApp conversation.</p>
+                <form id="enquiry-form" novalidate>
+                    <div class="field-row">
+                        <div class="field"><label for="name">Your name <span aria-hidden="true">*</span></label><input
+                                id="name" name="name" autocomplete="name" required minlength="2"
+                                aria-describedby="name-error"><small class="field-error" id="name-error"></small></div>
+                        <div class="field"><label for="email">Email address <span
+                                    aria-hidden="true">*</span></label><input id="email" name="email" type="email"
+                                autocomplete="email" required aria-describedby="email-error"><small class="field-error"
+                                id="email-error"></small></div>
+                    </div>
+                    <div class="field-row">
+                        <div class="field"><label for="project">What are you planning?</label><select id="project"
+                                name="project">
+                                <option value="">Choose a project type</option>
+                                <option>Portable cabin</option>
+                                <option>Office cabin</option>
+                                <option>Interior work</option>
+                                <option>Not sure yet</option>
+                            </select></div>
+                        <div class="field"><label for="timing">When are you hoping to begin?</label><select id="timing"
+                                name="timing">
+                                <option value="">Choose a timeframe</option>
+                                <option>As soon as practical</option>
+                                <option>In the next few months</option>
+                                <option>Still exploring</option>
+                            </select></div>
+                    </div>
+                    <div class="field"><label for="message">A little about the project <span
+                                aria-hidden="true">*</span></label><textarea id="message" name="message" rows="5"
+                            required minlength="12" aria-describedby="message-error"
+                            placeholder="What should the space help you do?"></textarea><small class="field-error"
+                            id="message-error"></small></div>
+                    <p class="form-honesty">Your information stays in this browser page. No backend is configured, so
+                        this form cannot send or save an enquiry.</p><button class="button button-dark"
+                        type="submit">Prepare enquiry message <span aria-hidden="true">↗</span></button>
+                    <div class="form-status" id="form-status" role="status" aria-live="polite"></div>
+                    <div class="share-actions" id="share-actions" hidden><button type="button"
+                            class="button button-gold" id="copy-message">Copy prepared message</button><a
+                            class="text-link" id="whatsapp-share" target="_blank" rel="noopener noreferrer">Open
+                            WhatsApp share <span aria-hidden="true">↗</span></a>
+                        <p>WhatsApp will open a message addressed to QDR's number. Review it before sending.</p>
+                    </div>
+                </form>
+            </div>
+        </section>
+        <section class="faq-section wrap section-pad">
+            <div class="section-heading">
+                <div>
+                    <p class="eyebrow">A QUICK NOTE</p>
+                    <h2>Before you <em>write.</em></h2>
+                </div>
+            </div>
+            <div class="faq-list">
+                <article class="faq-item">
+                    <h3><button class="faq-trigger" aria-expanded="false" aria-controls="faq-contact-1"
+                            id="faq-contact-btn-1">Does this form send my enquiry to QDR?<span
+                                aria-hidden="true">+</span></button></h3>
+                    <div class="faq-answer" id="faq-contact-1" role="region" aria-labelledby="faq-contact-btn-1" hidden>
+                        <p>No. This is a browser-only form with validation and message preparation. No backend service
+                            is configured, and no information is sent or stored.</p>
+                    </div>
+                </article>
+                <article class="faq-item">
+                    <h3><button class="faq-trigger" aria-expanded="false" aria-controls="faq-contact-2"
+                            id="faq-contact-btn-2">How does the WhatsApp option work?<span
+                                aria-hidden="true">+</span></button></h3>
+                    <div class="faq-answer" id="faq-contact-2" role="region" aria-labelledby="faq-contact-btn-2" hidden>
+                        <p>It opens a WhatsApp message addressed to QDR's number with your prepared text. Review it
+                            before sending.</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+    <footer class="site-footer">
+        <div class="wrap footer-main">
+            <div class="footer-brand"><a href="index.html"><img src="assets/logo/qdr-logo.png"
+                        alt="QDR Cabin and Interior"></a>
+                <p>Thoughtful cabins. Considered interiors.<br>Space that works for the way you do.</p>
+            </div>
+            <div class="footer-col">
+                <p class="footer-label">EXPLORE</p><a href="about.html">About QDR</a><a
+                    href="services.html">Services</a><a href="projects.html">Projects</a>
+            </div>
+            <div class="footer-col">
+                <p class="footer-label">OUR WORK</p><a href="portable-cabins.html">Portable cabins</a><a
+                    href="office-cabins.html">Office cabins</a><a href="interior-work.html">Interior work</a>
+            </div>
+            <div class="footer-col footer-contact">
+                <p class="footer-label">CONTACT</p>
+                <a href="tel:+919833605267">Call 98336 05267</a><a
+                    href="mailto:qdrcabins@gmail.com">qdrcabins@gmail.com</a><a href="#main">Back to enquiry form
+                    <span aria-hidden="true">↗</span></a><a href="https://www.youtube.com/@QDRcabinandinteriorin"
+                    target="_blank" rel="noopener noreferrer">YouTube channel ↗</a><a
+                    href="https://youtube.com/shorts/cOKui1bAQ7I?si=RUxoISTJ4za5PQFl" target="_blank"
+                    rel="noopener noreferrer">Watch our work ↗</a>
+            </div>
+        </div>
+        <div class="wrap footer-bottom"><span>© <span data-year></span> QDR Cabin &amp; Interior</span><a href="#main">Back to top ↑</a></div>
+    </footer>
+</body>
+
+</html>
